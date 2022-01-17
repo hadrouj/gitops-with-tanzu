@@ -1,0 +1,13 @@
+apiVersion: packaging.carvel.dev/v1alpha1
+kind: PackageInstall
+metadata:
+  name: prometheus
+spec:
+  packageRef:
+    refName: prometheus.tanzu.vmware.com
+    versionSelection:
+      constraints: ">=2.0.0"
+  serviceAccountName: monitoring-default-sa
+  values:
+  - secretRef:
+      name: prometheus-pkg-values

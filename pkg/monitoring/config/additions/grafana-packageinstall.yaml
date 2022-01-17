@@ -1,0 +1,13 @@
+apiVersion: packaging.carvel.dev/v1alpha1
+kind: PackageInstall
+metadata:
+  name: grafana
+spec:
+  packageRef:
+    refName: grafana.tanzu.vmware.com
+    versionSelection:
+      constraints: ">=7.0.0"
+  serviceAccountName: monitoring-default-sa
+  values:
+  - secretRef:
+      name: grafana-pkg-values

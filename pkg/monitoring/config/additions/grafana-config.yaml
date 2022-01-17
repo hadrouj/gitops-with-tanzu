@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: grafana-pkg-values
+type: Opaque
+stringData:
+  values.yml:
