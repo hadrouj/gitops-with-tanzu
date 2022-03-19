@@ -21,6 +21,7 @@ jobs:
         registry: ghcr.io
         username: ${{ github.actor }}
         password: ${{ secrets.GH_TOKEN }}
-
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
     - name: Deploy package repository
       run: make push
