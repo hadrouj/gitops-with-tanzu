@@ -8,8 +8,8 @@ spec:
   shortDescription: Monitoring packages for Tanzu clusters
   providerName: GitOps with Tanzu
   maintainers:
-  - name: Alexandre Roman
-  supportDescription: Go to github.com/alexandreroman/gitops-with-tanzu for documentation
+  - name: Mohamed Hadrouj
+  supportDescription: Go to github.com/hadrouj/gitops-with-tanzu for documentation
 ---
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
@@ -22,7 +22,7 @@ spec:
     spec:
       fetch:
       - imgpkgBundle:
-          image: ghcr.io/alexandreroman/gitops-with-tanzu-monitoring:stable
+          image: ghcr.io/hadrouj/gitops-with-tanzu-monitoring:stable
       template:
       - ytt:
           paths:

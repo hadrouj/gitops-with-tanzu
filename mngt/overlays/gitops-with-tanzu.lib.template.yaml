@@ -11,7 +11,7 @@ spec:
   serviceAccountName: tkg-addons-app-sa
   fetch:
   - git:
-      url: https://github.com/alexandreroman/gitops-with-tanzu-sample
+      url: https://github.com/hadrouj/gitops-with-tanzu-sample
       ref: origin/main
       subPath: #@ "env/INSERT-ENV-HERE/{}".format(data.values.CLUSTER_NAME)
       secretRef:

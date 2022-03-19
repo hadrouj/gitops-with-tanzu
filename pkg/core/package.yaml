@@ -9,7 +9,7 @@ spec:
     spec:
       fetch:
       - imgpkgBundle:
-          image: ghcr.io/alexandreroman/gitops-with-tanzu-core:stable
+          image: ghcr.io/hadrouj/gitops-with-tanzu-core:stable
       template:
       - ytt:
           paths:

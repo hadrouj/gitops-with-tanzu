@@ -2,9 +2,9 @@
 # SPDX-License-Identifier: Apache-2.0
 
 REQUIRED_BINARIES := imgpkg kbld ytt
-CORE_OCI_IMAGE := ghcr.io/alexandreroman/gitops-with-tanzu-core:stable
-MONITORING_OCI_IMAGE := ghcr.io/alexandreroman/gitops-with-tanzu-monitoring:stable
-REPO_OCI_IMAGE := ghcr.io/alexandreroman/gitops-with-tanzu-repo:stable
+CORE_OCI_IMAGE := ghcr.io/hadrouj/gitops-with-tanzu-core:stable
+MONITORING_OCI_IMAGE := ghcr.io/hadrouj/gitops-with-tanzu-monitoring:stable
+REPO_OCI_IMAGE := ghcr.io/hadrouj/gitops-with-tanzu-repo:stable
 
 check-carvel:
 	$(foreach exec,$(REQUIRED_BINARIES),\

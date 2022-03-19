@@ -8,5 +8,5 @@ spec:
   shortDescription: Monitoring packages for Tanzu clusters
   providerName: GitOps with Tanzu
   maintainers:
-  - name: Alexandre Roman
-  supportDescription: "Go to github.com/alexandreroman/gitops-with-tanzu for documentation"
+  - name: Mohamed Hadrouj
+  supportDescription: "Go to github.com/hadrouj/gitops-with-tanzu for documentation"

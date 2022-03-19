@@ -5,4 +5,4 @@ metadata:
 spec:
   fetch:
     imgpkgBundle:
-      image: ghcr.io/alexandreroman/tanzu-extra-repo:stable
+      image: ghcr.io/hadrouj/tanzu-extra-repo:stable
